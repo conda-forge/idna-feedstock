@@ -11,15 +11,13 @@ Summary: Internationalized Domain Names in Applications (IDNA).
 
 A library to support the Internationalised Domain Names in Applications
 (IDNA) protocol as specified in RFC 5891. This version of the protocol
-is often referred to as “IDNA2008”.
+is often referred to as "IDNA2008".
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/idna-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/idna-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/idna-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/idna-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/idna-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/idna-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/idna-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/idna-feedstock)
 
 Current release info
 ====================
