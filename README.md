@@ -17,7 +17,9 @@ is often referred to as "IDNA2008".
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/idna-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/idna-feedstock)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/idna-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/idna-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/idna-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/idna-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/idna-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/idna-feedstock/branch/master)
 
 Current release info
 ====================
