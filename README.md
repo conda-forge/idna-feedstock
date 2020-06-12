@@ -122,6 +122,3 @@ Feedstock Maintainers
 * [@goanpeca](https://github.com/goanpeca/)
 * [@jschueller](https://github.com/jschueller/)
 
-
-<!-- dummy commit to enable rerendering -->
-
