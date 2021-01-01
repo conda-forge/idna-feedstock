@@ -5,7 +5,7 @@ Home: https://github.com/kjd/idna
 
 Package license: BSD Like
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/idna-feedstock/blob/master/LICENSE.txt)
 
 Summary: Internationalized Domain Names in Applications (IDNA).
 

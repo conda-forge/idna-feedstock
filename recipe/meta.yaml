@@ -1,4 +1,4 @@
-{% set version = "2.10" %}
+{% set version = "3.0" %}
 
 package:
   name: idna
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/idna/idna-{{ version }}.tar.gz
-  sha256: b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6
+  sha256: c9a26e10e5558412384fac891eefb41957831d31be55f1e2c98ed97a70abb969
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ test:
 about:
   home: https://github.com/kjd/idna
   license: BSD Like
-  license_file: LICENSE.rst
+  #license_file: README.md
   summary: Internationalized Domain Names in Applications (IDNA).
   description: |
     A library to support the Internationalised Domain Names in Applications
