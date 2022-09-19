@@ -1,4 +1,4 @@
-{% set version = "3.3" %}
+{% set version = "3.4" %}
 
 package:
   name: idna
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/idna/idna-{{ version }}.tar.gz
-  sha256: 9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d
+  sha256: 814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
 
 build:
   noarch: python
@@ -15,6 +15,7 @@ build:
 
 requirements:
   host:
+    - flit-core
     - python >=3.6
     - pip
   run:
