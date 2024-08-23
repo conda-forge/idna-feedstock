@@ -1,4 +1,4 @@
-{% set version = "3.7" %}
+{% set version = "3.8" %}
 
 package:
   name: idna
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/i/idna/idna-{{ version }}.tar.gz
-  sha256: 028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc
+  sha256: d838c2c0ed6fced7693d5e8ab8e734d5f8fda53a039c0164afb0b82e771e3603
 
 build:
   noarch: python
