@@ -1,4 +1,4 @@
-{% set version = "3.10" %}
+{% set version = "3.11" %}
 
 package:
   name: idna
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/idna/idna-{{ version }}.tar.gz
-  sha256: 12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9
+  sha256: 795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
