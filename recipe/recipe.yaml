@@ -27,6 +27,7 @@ requirements:
 
 tests:
   - python:
+      python_version: ${{ python_min }}.*
       imports:
         - idna
       pip_check: true
