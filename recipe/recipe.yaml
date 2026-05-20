@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: idna
-  version: "3.13"
+  version: "3.14"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/idna/idna-${{ version }}.tar.gz
-  sha256: 585ea8fe5d69b9181ec1afba340451fba6ba764af97026f92a91d4eef164a242
+  sha256: 466d810d7a2cc1022bea9b037c39728d51ae7dad40d480fc9b7d7ecf98ba8ee3
 
 build:
   noarch: python
