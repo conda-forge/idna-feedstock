@@ -4,6 +4,8 @@ schema_version: 1
 context:
   version: "3.18"
   python_check_max: "3.14"
+  cov_run: coverage run --source=idna --branch --append
+  cov_fail_under: "93"
 
 package:
   name: idna
@@ -44,11 +46,14 @@ tests:
       run:
         - python ${{ python_min }}.*
         - pytest >=8.3.2
+        - pytest-cov
     script:
-      - idna --help
-      - idna --version
-      - idna --version | ${{ "grep -iE" if unix else "findstr" }} "${{ version | replace('.', '\\.') }}"
-      - pytest -vv --tb=long --color=yes
+      - ${{ cov_run }} -m idna --help
+      - ${{ cov_run }} -m idna.cli --help
+      - ${{ cov_run }} -m idna --version
+      - idna --version | ${{ "grep -iE" if unix else "findstr" }} "idna ${{ version | replace('.', '\\.') }}$"
+      - ${{ cov_run }} -m pytest -vv --tb=long --color=yes
+      - coverage report --show-missing --skip-covered --fail-under=${{ cov_fail_under }}
 
 about:
   homepage: https://pypi.org/project/idna
