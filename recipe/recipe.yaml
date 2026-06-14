@@ -18,6 +18,9 @@ build:
   number: 0
   script:
     - ${{ PYTHON }} -m pip install . -vvv --no-deps --no-build-isolation --disable-pip-version-check
+  python:
+    entry_points:
+      - idna = idna.cli:main
 
 requirements:
   host:
@@ -42,6 +45,9 @@ tests:
         - python ${{ python_min }}.*
         - pytest >=8.3.2
     script:
+      - idna --help
+      - idna --version
+      - idna --version | ${{ "grep -iE" if unix else "findstr" }} "${{ version | replace('.', '\\.') }}"
       - pytest -vv --tb=long --color=yes
 
 about:
