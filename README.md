@@ -3,11 +3,13 @@ About idna-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/idna-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/kjd/idna
+Home: https://pypi.org/project/idna
 
 Package license: BSD-3-Clause
 
 Summary: Internationalized Domain Names in Applications (IDNA).
+
+Development: https://github.com/kjd/idna
 
 A library to support the Internationalised Domain Names in Applications
 (IDNA) protocol as specified in RFC 5891. This version of the protocol
@@ -148,6 +150,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bollwyvl](https://github.com/bollwyvl/)
 * [@goanpeca](https://github.com/goanpeca/)
 * [@jschueller](https://github.com/jschueller/)
 
